@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient(to bottom right,rgb(71, 103, 121),rgb(31, 100, 160))
+}
+
+
+.topic{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(41, 16, 63);
+    text-align: center;
+    padding-top: 8%;
+}
+
+.box{
+
+    height: 40vh;
+    max-width: 30%;
+    margin: auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background: linear-gradient(to bottom right, #3b79af, #629fa2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
+}
+.text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-left: 10px;
+    height: 45vh;
+    width: auto;
+    margin: auto;
+}
+.input{
+    text-align: center;
+    align-self: center;
+    height: 110vh;
+    width: 100%;
+    
+
+}
+.inputMonth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    justify-content: center;  
+}
+.txtyear{
+    border-radius: 6px;
+    text-align: center;
+}
+.txtmonth{
+    border-radius: 6px;
+    text-align: center;
+}
+h2{
+    color: lightseagreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.display{
+    color: rgb(248, 248, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.button{
+    height: 30px;
+    width: 110px;
+    border-radius: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(to right, #3f8dd1, #27b5bd);
+    color: #fff;
+    cursor: pointer;
+}
+.button:hover{
+    background: linear-gradient(to top, #225254, #1e415f);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button:active{
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
